@@ -1,0 +1,84 @@
+body{
+    background-image: url("img/gym.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: aliceblue;
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.mid{
+    /* border: 2px solid cyan; */
+    width: 35%;
+    display: block;
+    margin: 30px auto;
+}
+.right{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 30px;
+    /* border: 2px solid green; */
+    padding: 10px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar li a:hover,.navbar li a:active {
+    color: blue;
+    text-decoration: underline;
+}
+
+.left img{
+    text-align: center;
+    height: 85px;
+    width: 85px;
+}
+
+.rightIcon{
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    background-color: rgba(35, 29, 29, 0.399);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.container{
+    border:2px solid white;
+    margin: 102px 82px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+}
+
+.form-gp input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 3px auto;
+}
+.container button{
+    display: block;
+    width: 60px;
+    margin:2px auto;
+}
